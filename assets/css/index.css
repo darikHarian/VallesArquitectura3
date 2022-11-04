@@ -20,6 +20,11 @@ html {
         transition: 1s;
     }
 
+    .navbar2 {
+        position: absolute;
+        top: 190px;
+    }
+
     .rrss {
         color: #616161;
     }
@@ -38,6 +43,7 @@ html {
     .cat-img {
         border-radius: 5px;
         border-style: dashed;
+        border-color: #000;
     }
 
     .sh-light {
@@ -71,6 +77,15 @@ html {
     @media only screen and (min-width: 992px) {
         #logo {
             width: 270px;
+        }
+
+        .navbar-collapse {
+            transition: none;
+        }
+
+        .navbar2 {
+            top: 5.5em;
+            right: 19.9em;
         }
     }
 

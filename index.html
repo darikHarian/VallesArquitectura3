@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/categories.css">
 
     <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 
@@ -33,14 +34,24 @@
                     <div id="js-pointer" class="nav-pointer"></div>
                     <ul class="navbar-nav nav-list mb-2 mb-lg-0">
                         <li class="nav-item rounded-1 me-xl-4 mt-2 px-3">
-                            <a id="href1" class="nav-link active fs-6 py-1" href="#top" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Proyectos</a>
+                            <a id="nav1" class="nav-link active fs-6 py-1" href="#" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Proyectos</a>
                         </li>
                         <li class="nav-item rounded-1 ms-xl-4 me-xl-5 mt-2 px-3">
-                            <a id="href2" class="nav-link fs-6 py-1" href="#top" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Experiencia</a>
+                            <a id="nav2" class="nav-link fs-6 py-1" href="#" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Experiencia</a>
                         </li>
                         <li class="nav-item rounded-1 ms-xl-0 me-xl-5 mt-2 px-3">
-                            <a id="href3" class="nav-link fs-6 py-1" href="#top" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Contacto</a>
+                            <a id="nav3" class="nav-link fs-6 py-1" href="#" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Contacto</a>
+                        </li>    
+                    </ul>                   
+                    <ul class="navbar-nav navbar2">
+                        <li class="nav-item rounded-1 me-xl-4 mt-2 px-3">
+                            <a id="nav1" class="nav-link active fs-6 py-1" href="#" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Innovación</a>
                         </li>
+                        <li class="nav-item rounded-1 me-xl-4 mt-2 px-3">
+                            <a id="nav1" class="nav-link active fs-6 py-1" href="#" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Servicios</a>
+                        </li>                   
+                    </ul>
+                    <ul class="navbar-nav nav-list mt-5 pe-5 ">                       
                         <li class="pt-4 pt-lg-2 ms-3 ms-lg-5 ms-xl-2">
                             <a class="text-decoration-none" href="https://www.linkedin.com/in/leticia-pasten-gutierrez-944896a5/" target="_blank">
                                 <span class="rrss bi bi-linkedin fs-3 px-xl-1"></span>
@@ -56,7 +67,7 @@
     </header>
 
     <main class="text-center">
-        <iframe src="categorias.html" style="width: 90vw;height: 90vh;"></iframe>
+        <iframe id="main-frame" src="categorias.html" style="width: 90vw;height: 90vh;"></iframe>
     </main>
 
     <footer>
@@ -65,5 +76,6 @@
 
     <!-- Scripts -->
     <script src="assets/js/index.js"></script>
+    <script src="assets/js/nav.js"></script>
 </body>
 </html>
