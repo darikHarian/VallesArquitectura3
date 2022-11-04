@@ -35,4 +35,9 @@ $(document).ready(function(e) {
         $("#main-frame").fadeToggle(0).delay(0).fadeToggle(400);	
         $('#main-frame').attr('src', 'servicios.html');
     });
+
+    $('#nav8').on('click', function(){
+        $("#main-frame").fadeToggle(0).delay(0).fadeToggle(400);	
+        $('#main-frame').attr('src', 'contacto.html');
+    });
 });

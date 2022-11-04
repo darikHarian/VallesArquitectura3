@@ -40,10 +40,18 @@ html {
         margin-top: 110px;
     }
 
-    .cat-img {
+    .tile-img {
         border-radius: 5px;
         border-style: dashed;
         border-color: #000;
+    }
+
+    .tiles-title {
+        color: #000;
+    }
+
+    #proy-frame {
+        top: 5em;
     }
 
     .sh-light {
@@ -96,7 +104,7 @@ html {
         }
 
         .navbar-collapse {
-            background: rgba(255,255,255,.8);
+            background: rgba(255,255,255,.95);
             border-radius: 10px;
         }
     }
