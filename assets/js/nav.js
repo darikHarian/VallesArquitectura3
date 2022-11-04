@@ -3,7 +3,7 @@ $(document).ready(function(e) {
     
     $('#nav1').on('click', function(){
         $("#main-frame").fadeToggle(0).delay(0).fadeToggle(400);
-        $('#main-frame').attr('src', 'categorias.html');
+        $('#main-frame').attr('src', 'proyectos.html');
     });
 
     $('#nav2').on('click', function(){
@@ -14,5 +14,25 @@ $(document).ready(function(e) {
     $('#nav3').on('click', function(){
         $("#main-frame").fadeToggle(0).delay(0).fadeToggle(400);	
         $('#main-frame').attr('src', 'contacto.html');
-    });   
+    });
+    
+    $('#nav4').on('click', function(){
+        $("#main-frame").fadeToggle(0).delay(0).fadeToggle(400);	
+        $('#main-frame').attr('src', 'innovacion.html');
+    }); 
+
+    $('#nav5').on('click', function(){
+        $("#main-frame").fadeToggle(0).delay(0).fadeToggle(400);	
+        $('#main-frame').attr('src', 'servicios.html');
+    }); 
+
+    $('#nav6').on('click', function(){
+        $("#main-frame").fadeToggle(0).delay(0).fadeToggle(400);	
+        $('#main-frame').attr('src', 'innovacion.html');
+    }); 
+
+    $('#nav7').on('click', function(){
+        $("#main-frame").fadeToggle(0).delay(0).fadeToggle(400);	
+        $('#main-frame').attr('src', 'servicios.html');
+    });
 });

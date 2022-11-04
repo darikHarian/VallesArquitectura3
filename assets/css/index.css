@@ -20,9 +20,9 @@ html {
         transition: 1s;
     }
 
-    .navbar2 {
+    .navbar2-desktop {
         position: absolute;
-        top: 190px;
+        visibility: hidden;
     }
 
     .rrss {
@@ -83,9 +83,10 @@ html {
             transition: none;
         }
 
-        .navbar2 {
+        .navbar2-desktop {
             top: 5.5em;
             right: 19.9em;
+            visibility: visible;
         }
     }
 
