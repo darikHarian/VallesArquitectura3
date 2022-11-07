@@ -51,7 +51,8 @@ html {
     }
 
     #proy-frame {
-        top: 5em;
+        position: relative;
+        top: -30px !important;
     }
 
     .sh-light {
