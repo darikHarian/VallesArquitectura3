@@ -64,6 +64,8 @@ html {
     #proy-frame {
         position: relative;
         top: -60px !important;
+        width: 90vw;
+        height: 83vh;
     }
 
     .sh-light {
@@ -74,6 +76,9 @@ html {
         text-shadow: 1px 2px 3px #000;
     }
 
+    .space-mobile {
+        height: 40px;
+    }
 
     /* Screen SM */
     @media only screen and (min-width: 576px) {
@@ -112,6 +117,14 @@ html {
         #main-frame {
             top: 0px;
             height: 82vh;
+        }
+
+        #proy-frame {
+            height: 90vh;
+        }
+
+        .space-mobile {
+            height: 0;
         }
     }
 
