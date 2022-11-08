@@ -58,7 +58,7 @@ html {
         position: fixed;
         top: 15%;
         left: 50%;
-        transform: translate(-50%, -7%) !important;
+        transform: translate(-50%, -3%) !important;
         width: 100vw;
         height: 95vh;
         border-style: double;
@@ -147,5 +147,11 @@ html {
     @media only screen and (max-width: 1200px) {
         .nav-link {
             font-size: 15px !important;
+        }
+    }
+
+    @media only screen and (min-height: 900px) {
+        #main-frame {
+            transform: translate(-50%, -7%) !important;
         }
     }
