@@ -58,7 +58,7 @@ html {
         position: fixed;
         top: 15%;
         left: 50%;
-        transform: translate(-50%, -8%) !important;
+        transform: translate(-50%, -4%) !important;
         width: 100vw;
         height: 95vh;
         border-style: double;
