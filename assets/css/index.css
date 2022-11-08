@@ -59,13 +59,14 @@ html {
         top: -30px;
         width: 100vw;
         height: 85vh;
+        overflow-block: 90vh;
     }
 
     #proy-frame {
         position: relative;
         top: -60px !important;
         width: 90vw;
-        height: 97vh;
+        height: 50em;
     }
 
     .sh-light {
