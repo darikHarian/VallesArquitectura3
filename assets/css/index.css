@@ -58,8 +58,7 @@ html {
         position: relative;
         top: -30px;
         width: 100vw;
-        height: 85vh;
-        overflow-block: 90vh;
+        height: 50em;
     }
 
     #proy-frame {
