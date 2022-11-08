@@ -56,9 +56,9 @@ html {
 
     #main-frame {
         position: fixed;
-        top: 4em;
+        top: 15%;
         left: 50%;
-        transform: translate(-50%, 0) !important;
+        transform: translate(-50%, -8%) !important;
         width: 100vw;
         height: 95vh;
         border-style: double;
