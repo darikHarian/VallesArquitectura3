@@ -55,17 +55,21 @@ html {
     }
 
     #main-frame {
-        position: relative;
-        top: -30px;
+        position: fixed;
+        bottom: -30px;
+        left: 50%;
+        transform: translate(-50%, 0) !important;
         width: 100vw;
-        height: 50em;
+        height: 95vh;
+        border-style: double;
     }
 
     #proy-frame {
         position: relative;
         top: -60px !important;
         width: 90vw;
-        height: 50em;
+        height: 88vh;
+        
     }
 
     .sh-light {
@@ -116,8 +120,8 @@ html {
         }
 
         #main-frame {
-            top: 0px;
-            height: 82vh;
+            top: 120px;
+            height: 87vh;
         }
 
         #proy-frame {
