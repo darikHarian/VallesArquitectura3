@@ -8,7 +8,7 @@ $(document).ready(function(e) {
 
     $('#nav2').on('click', function(){
         $("#main-frame").fadeToggle(0).delay(0).fadeToggle(400);	
-        $('#main-frame').attr('src', 'experiencia.html');
+        $('#main-frame').attr('src', 'quienes-somos.html');
     });
 
     $('#nav3').on('click', function(){
