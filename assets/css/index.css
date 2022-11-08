@@ -58,14 +58,14 @@ html {
         position: relative;
         top: -30px;
         width: 100vw;
-        height: 87vh;
+        height: 85vh;
     }
 
     #proy-frame {
         position: relative;
         top: -60px !important;
         width: 90vw;
-        height: 83vh;
+        height: 97vh;
     }
 
     .sh-light {
@@ -78,6 +78,7 @@ html {
 
     .space-mobile {
         height: 40px;
+        background: #000;
     }
 
     /* Screen SM */
