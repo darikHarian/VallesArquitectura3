@@ -19,8 +19,8 @@
 </head>
 <body>
     <div class="container" id="main">
-        <div class="row">
-            <div class="col-12 col-lg-7 px-auto">
+        <div class="row mt-3 mt-lg-5">
+            <div class="col-12 col-lg-6 mx-auto">
                 <div id="contact-form">
                     <form name="contact-form" method="post" action="form-validation.php" enctype="multipart/form-data">
                         <div>
@@ -31,10 +31,10 @@
                             <label for="subject" class="form-label">Asunto</label>
                             <select name="subject" id="subject" class="form-select bg-secondary bg-opacity-25" required>
                                 <option value="">Seleccione</option>
-                                    option value="" disabled="disabled">General</option>
+                                <option value="" disabled="disabled">General</option>
                                 <option value="Obras civiles">- Obras civiles</option>
                                 <option value="Clínicas odontológicas">- Clínicas odontológicas</option>
-                                    option value="Parques temáticos">- Parques temáticos</option>
+                                <option value="Parques temáticos">- Parques temáticos</option>
                                 <option value="Viviendas nuevas">- Viviendas nuevas</option>
                                 <option value="Ampliaciones">- Ampliaciones</option>
                                 <option value="Remoledaciones">- Remoledaciones</option>
@@ -56,9 +56,34 @@
                             <br>
                             <textarea name="message" id="message" class="bg-secondary bg-opacity-25 rounded-2 w-100" rows="5" required></textarea>
                         </div>
-                        <button type="submit" id="submit" value="Enviar" class="btn btn-secondary btn-submit mt-2">Enviar</button>
+                        <div class="text-center text-lg-start">
+                            <button type="submit" id="submit" value="Enviar" class="btn btn-secondary btn-submit mt-2">Enviar</button>
+                        </div>
                     </form>
                 </div>
+            </div>
+            <div class="col-12 col-lg-1"></div>
+            <div class="col-12 col-lg-3 text-center text-lg-start mx-auto mt-5 mt-lg-0">
+                <h5>Información de contacto</h5>
+                <p>
+                    Domingo Faustino<br>
+                    Sarmiento 1092
+                </p>
+                <p>La Serena - Chile</p>
+                <p>
+                    +569 7417 6035<br>
+                    +569 8898 9042
+                </p>
+                <p>contacto@vallesarquitectura.cl</p>
+                <h5>Horario de atención</h5>
+                <p>
+                    Lunes a viernes
+                    08:30 a 18:30 hrs.
+                </p>
+                <h5>Redes sociales</h5>
+                <a class="text-decoration-none" href="https://wa.me/56974176035" target="_blank" style="color:#4caf50">Whatsapp</a> | 
+                <a class="text-decoration-none" href="https://www.linkedin.com/company/valles-arquitectura-y-construcci%C3%B3n" target="_blank" style="color:#03a9f4">LinkedIn</a> | 
+                <a class="text-decoration-none" href="https://www.instagram.com/valles_arquitectura/" target="_blank" style="color:#e91e63">Instagram</a>
             </div>
         </div>           
     </div>

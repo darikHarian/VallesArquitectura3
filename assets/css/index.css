@@ -46,8 +46,6 @@ html {
 
     .tile-img {
         border-radius: 5px;
-        border-style: dashed;
-        border-color: #000;
     }
 
     .tiles-title {
@@ -65,7 +63,6 @@ html {
         transform: translate(-50%, -5%) !important;
         width: 100vw;
         height: 93vh;
-        border-style: double;
     }
 
     #proy-frame {
