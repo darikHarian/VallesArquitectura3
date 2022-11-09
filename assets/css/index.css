@@ -76,6 +76,10 @@ html {
         
     }
 
+    .btn-submit {
+        width: 50%;
+    }
+
     .sh-light {
         text-shadow: #f5f5f5 !important;
     }
@@ -137,6 +141,10 @@ html {
 
         #services {
             width: 110vh;
+        }
+
+        .btn-submit {
+            width: 25%;
         }
 
         .space-mobile {
