@@ -54,6 +54,10 @@ html {
         color: #000;
     }
 
+    #services {
+        width: 45vh;
+    }
+
     #main-frame {
         position: fixed;
         top: 15%;
@@ -100,6 +104,10 @@ html {
         main {
             margin-top: 130px;
         }
+
+        #services {
+            width: 70vh;
+        }
     }
 
     /* Screen LG */
@@ -125,6 +133,10 @@ html {
 
         #proy-frame {
             height: 90vh;
+        }
+
+        #services {
+            width: 110vh;
         }
 
         .space-mobile {
