@@ -21,7 +21,7 @@ html {
     }
 
     .navbar-collapse {
-        transition: 1s;
+        transition: 0.5s;
     }
 
     .navbar2-desktop {
@@ -31,7 +31,7 @@ html {
     }
 
     .nav-link {
-        color: #9e9e9e;
+        color: #424242;
         font-weight: normal;
     }
 
@@ -132,6 +132,7 @@ html {
         }
 
         .nav-link {
+            color: #9e9e9e;
             font-weight: 600;
         }
 
