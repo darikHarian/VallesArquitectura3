@@ -22,14 +22,14 @@
         <div class="row mt-3 mt-lg-5">
             <div class="col-12 col-lg-6 mx-auto">
                 <div id="contact-form">
-                    <form name="contact-form" method="post" action="form-validation.php" enctype="multipart/form-data">
+                    <form name="contact-form" method="post" action="form.php" enctype="multipart/form-data">
                         <div>
                             <label for="name" class="form-label">Nombre</label>
-                            <input type="text" id="name" class="form-control bg-secondary bg-opacity-25" name="name" required>
+                            <input name="name" type="text" class="form-control bg-secondary bg-opacity-25" required>
                         </div>
                         <div>
                             <label for="subject" class="form-label">Asunto</label>
-                            <select name="subject" id="subject" class="form-select bg-secondary bg-opacity-25" required>
+                            <select name="subject" class="form-select bg-secondary bg-opacity-25" required>
                                 <option value="">Seleccione</option>
                                 <option value="" disabled="disabled">General</option>
                                 <option value="Obras civiles">- Obras civiles</option>
@@ -49,15 +49,15 @@
                         </div>
                         <div>
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" name="Email" class="form-control bg-secondary bg-opacity-25" required>
+                            <input type="email" name="email" class="form-control bg-secondary bg-opacity-25" required>
                         </div>
                         <div>
                             <label for="message" class="form-label">Mensaje</label>
                             <br>
-                            <textarea name="message" id="message" class="bg-secondary bg-opacity-25 rounded-2 w-100" rows="5" required></textarea>
+                            <textarea name="message" class="bg-secondary bg-opacity-25 rounded-2 w-100" rows="5" required></textarea>
                         </div>
                         <div class="text-center text-lg-start">
-                            <button type="submit" id="submit" value="Enviar" class="btn btn-secondary btn-submit mt-2">Enviar</button>
+                            <button type="submit" class="btn btn-secondary btn-submit mt-2">Enviar</button>
                         </div>
                     </form>
                 </div>
