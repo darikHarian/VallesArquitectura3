@@ -13,6 +13,11 @@ $(document).ready(function(e) {
 
     $('#cat3').on('click', function(){
         $("#proy-frame").fadeToggle(0).delay(0).fadeToggle(400);	
-        $('#proy-frame').attr('src', 'proyectos/cat-otros.html');
+        $('#proy-frame').attr('src', 'proyectos/cat-comercio.html');
+    });
+
+    $('#cat4').on('click', function(){
+        $("#proy-frame").fadeToggle(0).delay(0).fadeToggle(400);	
+        $('#proy-frame').attr('src', 'proyectos/cat-parques.html');
     });
 });
