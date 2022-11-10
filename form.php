@@ -8,7 +8,7 @@ $message = $_POST['message'];
 $email_from = $_POST['email'];
 
 // Destinatario
-$email_to = "contacto@alphacorp.cl";	
+$email_to = "contacto@vallesarquitectura.cl";	
 $email_subject = "Mensaje de cliente desde vallesarquitectura.cl";
 	
 // Contenido del mensaje	

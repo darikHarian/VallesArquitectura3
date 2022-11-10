@@ -26,6 +26,7 @@ html {
 
     .navbar2-desktop {
         position: absolute;
+        transform: none;
         visibility: hidden;
     }
 
@@ -35,6 +36,10 @@ html {
 
     .rrss:hover {
         color: #212121;
+    }
+
+    .nav-ls {
+        letter-spacing: normal;
     }
 
     
@@ -123,8 +128,8 @@ html {
 
         .navbar2-desktop {
             top: 5.5em;
-            right: 19.9em;
             visibility: visible;
+            transform: translate(-20%, -5%);
         }
 
         #main-frame {
@@ -146,6 +151,10 @@ html {
 
         .space-mobile {
             height: 0;
+        }
+
+        .nav-ls {
+            letter-spacing: 5px;
         }
     }
 
