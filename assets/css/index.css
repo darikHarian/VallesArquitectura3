@@ -47,6 +47,10 @@ html {
         letter-spacing: normal;
     }
 
+    .title-ls {
+        letter-spacing: normal;
+    }
+
     
 
 /* Main */
@@ -165,6 +169,9 @@ html {
 
         .nav-ls {
             letter-spacing: 5px;
+        }
+        .title-ls {
+            letter-spacing: 15px;
         }
     }
 
