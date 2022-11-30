@@ -87,6 +87,15 @@ html {
         
     }
 
+    .navbar-light + .active {
+        color: #000 !important;
+        font-weight: bold;
+    }
+
+    .active {
+        font-weight: bold !important;
+    }
+
     .btn-submit {
         width: 50%;
     }
