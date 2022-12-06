@@ -20,6 +20,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/nav-pointer.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -31,7 +32,7 @@
 <body>
     <header id="top">
         <!-- Navbar  -->
-        <nav class="navbar navbar-expand-lg navbar-light container-fluid fixed-top" id="js-nav" py-0">
+        <nav class="navbar navbar-expand-lg navbar-light container-fluid fixed-top py-0">
             <div class="container-fluid mx-0 mx-lg-5">
                 <a class="navbar-brand" href="index.html" style="z-index: 1;">
                     <img id="logo" class="pt-2" src="assets/img/logo-bn-typo-1.png" alt="Logo">
@@ -39,11 +40,10 @@
                 <button class="navbar-toggler fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center menu" id="navbarSupportedContent">
-                    <div id="js-pointer" class="nav-pointer"></div>
-                    <ul class="navbar-nav nav-list mb-2 mb-lg-0 nav-ls">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-list mb-2 mb-lg-0 nav-ls menu">
                         <li class="nav-item rounded-1 me-xl-4 mt-2 px-3">
-                            <a id="nav1" class="nav-link fs-6 py-1" href="#" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Proyectos</a>
+                            <a id="nav1" class="active nav-link fs-6 py-1" href="#" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Proyectos</a>
                         </li>
                         <li class="nav-item rounded-1 ms-xl-4 me-xl-5 mt-2 px-3">
                             <a id="nav2" class="nav-link fs-6 py-1" href="#" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">¿Quiénes somos?</a>
@@ -63,7 +63,7 @@
                             </li>
                         </ul>
                     </ul>                   
-                    <ul class="navbar-nav navbar2-desktop nav-ls">
+                    <ul class="navbar-nav navbar2-desktop nav-ls menu2">
                         <li class="nav-item rounded-1 me-xl-4 mt-2 px-3">
                             <a id="nav6" class="nav-link fs-6 py-1" href="#" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Innovación</a>
                         </li>
@@ -95,7 +95,7 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="assets/js/index.js"></script>
+    <script src="assets/js/nav-pointer.js"></script>
     <script src="assets/js/nav.js"></script>
 </body>
 </html>
